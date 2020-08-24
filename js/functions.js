@@ -1,3 +1,5 @@
+"use strict";
+
 function isPalindrome(numberAsString){
     let characters = numberAsString.split('');
     let isPalindrome = true;
