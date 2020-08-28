@@ -53,10 +53,15 @@ console.log(logg3.substr()); //Hello my diar world!
 //substr() - метод возвращающий часть строки
 //два аргумента: start - начало, length - сколько символов вырезать
 const logg4 = "Hello my love world!";
-console.log(logg4.substr(1, 8));
+console.log(logg4.substr(1, 8)); //ello my
 
 //Примеры работы с числами
 //метод Math
 const num = 12.2;
 //Округление
-console.log(Math.round(num));
+console.log(Math.round(num)); //12
+
+//распарсивание строки
+const test = "12.2px";
+console.log(parseInt(test)); //12
+console.log(parseFloat(test)); //12.2
